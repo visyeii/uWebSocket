@@ -18,8 +18,8 @@
 #define USE_SERIAL Serial
 
 
-const char* ssid = "ssid";
-const char* password = "password";
+const char* ssid = "your_ssid";
+const char* password = "your_password";
 ESP8266WiFiMulti WiFiMulti;
 
 void setup() {
