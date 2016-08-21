@@ -52,7 +52,7 @@ void loop() {
     {
       USE_SERIAL.print("[HTTP] begin...\n");
       // configure traged server and url
-      g_http.begin("http://192.168.24.10:8080/test_chat/server.php"); //HTTP
+      g_http.begin("http://YOUR_PHP_SERVER:8080/WebSocketPHP/server.php"); //HTTP
       g_http.setReuse(true);//keep-alive
       g_http.setUpgrade(true);//keep-Upgrade
       g_http.addHeader("Upgrade", "websocket");
